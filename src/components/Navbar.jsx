@@ -1,34 +1,8 @@
-// import React from 'react';
-// import { Box, Flex, HStack, Link, IconButton } from '@chakra-ui/react';
-// import { FiMoon } from 'react-icons/fi';
-// import { Link as RouterLink } from 'react-router-dom'; 
-// const Navbar = () => {
-//   return (
-//     <Box position="relative">
-//       <Flex justify="center" align="center" p={4} position="relative">
-        
-//         {/* Centered links */}
-//         <HStack spacing={8}>
-//           <Link>home</Link>
-//           <Link as={RouterLink} to="/blog" _focus={{boxShadow: 'none'}} _hover={{textDecoration:'none'}}>blog</Link>
-//           <Link>projects</Link>
-//         </HStack>
-//         <IconButton position={"absolute"} right="4" rounded={"full"} variant={"subtle"}>
-//           <FiMoon />
-//         </IconButton>
-//       </Flex>
-//     </Box>
-//   );
-// };
-
-// export default Navbar;
-
 import React from 'react';
 import { Box, Flex, HStack, Link, IconButton } from '@chakra-ui/react';
-import { FiMoon, FiSun } from 'react-icons/fi';
 import { Link as RouterLink } from 'react-router-dom';
 import { ColorModeButton } from './ui/color-mode';
-import Resume from './resume.pdf'
+import Resume from '../assets/resume.pdf'
 
 const Navbar = () => {
 

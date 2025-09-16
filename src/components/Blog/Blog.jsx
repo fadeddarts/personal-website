@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import BlogPostCard from "./blogpostcard";
 import Navbar from "../Navbar";
-import Footer from "../Footer"
+import Footer from "../Home/Footer"
 import { VStack, ButtonGroup, IconButton, Container, Flex, Text } from "@chakra-ui/react";
 import { LuChevronLeft, LuChevronRight } from "react-icons/lu";
 
@@ -13,14 +13,8 @@ const tweets = [
   "1967589628342567187",
   "1967700931975450757",
   "1967663985563721777",
-  // "1964755247521570833",
-  // "1964895660664410329",
-  // "1964815286101786941",
-  // "1964755247521570833",
-  // "1964895660664410329",
-  // "1964815286101786941",
 ];
-// https://x.com/smthngliketsai/status/1967663985563721777
+
 const tweetsPerPage = 6;
 const maxVisiblePages = 5; // max numeric buttons visible
 

@@ -1,8 +1,7 @@
 import React from 'react'
 import { Link } from '@chakra-ui/react'
-import AvatarIMG from './IMG_0974.jpg'
-import AvatarImg from './IMG_0964.jpg'
-import { useColorModeValue } from './ui/color-mode'
+import AvatarIMG from '../../assets/IMG_0974.jpg'
+import { useColorModeValue } from '../ui/color-mode'
 import {
   Avatar,
   AvatarGroup,

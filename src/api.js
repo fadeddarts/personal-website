@@ -1,4 +1,3 @@
-// src/api.js
 const API_URL = 'http://localhost:5000/blog';
 
 export const fetchPosts = async (page = 1) => {

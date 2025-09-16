@@ -1,6 +1,6 @@
 import React from "react";
 import { Box, Text } from "@chakra-ui/react";
-import { useColorModeValue } from './ui/color-mode'
+import { useColorModeValue } from '../ui/color-mode'
 
 const Footer = () => {
   const textColor = useColorModeValue("gray.600", "gray.400");
